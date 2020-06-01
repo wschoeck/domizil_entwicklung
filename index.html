@@ -3,7 +3,6 @@
 <head>
 <title>domizil</title>
 <link rel="stylesheet" href="styles/styles.css">
-<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
@@ -13,23 +12,32 @@
 <div class="background_header">
   <div class="container_header">
 
-    <div class="headerone">
+    <div class="headeritemone">
       <img class="logo" src="image/domizil_Logo.svg" alt="domizil_Logo" width="" height="">
     </div>
 
-    <div class="headerabout">
-      <a href="konzept.html"><h4 class="menufont">ÜBER UNS</h4></a>
-      <img class="iconheader" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
+    <div class="headeritemabout headeritem textright">
+      <a href="konzept.html">
+        <img class="iconheader default" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
+        <img class="iconheader active" src="image/icon_ueber_uns_red.svg" alt="icon_ueber_uns_red" width="" height="">
+        <h4 class="menufont">ÜBER UNS</h4>
+      </a>
     </div>
 
-    <div class="headershop">
-      <h4 class="menufont">SHOP</h4>
-      <img class="iconheader" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
+    <div class="headeritemshop headeritem textright">
+      <a href="konzept.html">
+        <img class="iconheader default" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
+        <img class="iconheader active" src="image/icon_ueber_uns_red.svg" alt="icon_ueber_uns_red" width="" height="">
+        <h4 class="menufont">SHOP</h4>
+      </a>
     </div>
 
-    <div class="headeraccount">
-      <h4 class="menufont">MEIN DOMIZIL</h4>
-      <img class="iconheader" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
+    <div class="headeritemaccount headeritem textright">
+      <a href="konzept.html">
+        <img class="iconheader default" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
+        <img class="iconheader active" src="image/icon_ueber_uns_red.svg" alt="icon_ueber_uns_red" width="" height="">
+        <h4 class="menufont">MEIN DOMIZIL</h4>
+      </a>
     </div>
 
   </div>
@@ -37,43 +45,59 @@
 
 <!-- header -->
 
-<!-- navi -->
-
-<div class="container_navi">
-
-  <div class="navione">
-    <img class="iconnavi" src="image/icon_produkt.svg" alt="icon_produkt" width="" height="">
-    <h4 class="bold navifont">PRODUKT</h4>
-  </div>
-
-  <div class="navitwo">
-    <img class="iconnavi" src="image/icon_produkt.svg" alt="icon_produkt" width="" height="">
-    <h4 class="bold navifont">BERATUNG</h4>
-  </div>
-
-  <div class="navithree">
-    <img class="iconnavi" src="image/icon_produkt.svg" alt="icon_produkt" width="" height="">
-    <h4 class="bold navifont">KOSMOS</h4>
-  </div>
-
-  <div class="navifour">
-    <img class="iconnavi" src="image/icon_produkt.svg" alt="icon_produkt" width="" height="">
-    <h4 class="bold navifont">TERMIN</h4>
-  </div>
-
-</div>
-
-<!-- navi -->
-
 <!-- container_breadcrumb -->
 
 <div class="container_breadcrumb">
 
   <div class="breadcrumbone">
-    <h5 class="medium">Shop > Porzellanserie TAC > Teetasse 2 tlg.</h5>
+    <h5 class="medium"><a class="anthrazit" href="shop.html">Shop</a> > Teetasse 2 tlg.</h5>
   </div>
 
 </div>
+
+<!-- navi -->
+
+<div class="background_navi">
+
+<div class="container_navi">
+
+  <div class="navione headeritem">
+    <a href="konzept.html">
+      <img class="iconheader default" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
+      <img class="iconheader active" src="image/icon_ueber_uns_red.svg" alt="icon_ueber_uns_red" width="" height="">
+      <h4 class="menufont">PRODUKT</h4>
+    </a>
+  </div>
+
+  <div class="navitwo headeritem">
+    <a href="konzept.html">
+      <img class="iconheader default" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
+      <img class="iconheader active" src="image/icon_ueber_uns_red.svg" alt="icon_ueber_uns_red" width="" height="">
+      <h4 class="menufont">BERATUNG</h4>
+    </a>
+  </div>
+
+  <div class="navithree headeritem">
+    <a href="konzept.html">
+      <img class="iconheader default" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
+      <img class="iconheader active" src="image/icon_ueber_uns_red.svg" alt="icon_ueber_uns_red" width="" height="">
+      <h4 class="menufont">KOSMOS</h4>
+    </a>
+  </div>
+
+  <div class="navifour headeritem">
+    <a href="konzept.html">
+      <img class="iconheader default" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
+      <img class="iconheader active" src="image/icon_ueber_uns_red.svg" alt="icon_ueber_uns_red" width="" height="">
+      <h4 class="menufont">TERMIN</h4>
+    </a>
+  </div>
+
+</div>
+
+</div>
+
+<!-- navi -->
 
 
 <!-- container_product -->
@@ -113,19 +137,32 @@
     </div>
 
   <div class="columnfaq">
+
     <h2 class="medium">Ich möchte hierzu gern mehr erfahren</h2>
-      <div class="custom-select" style="width:200px;">
-        <select>
-          <option value="0">Volumen</option>
-          <option value="konzept.html">Grösse</option>
-          <option value="index.html">Material</option>
-          <option value="3">Farbe</option>
-          <option value="4">Kollektion</option>
-          <option value="5">Marke</option>
-          <option value="6">Pflege</option>
-          <option value="7">Designer</option>
-        </select>
+
+    <!-- tglpulldown  -->
+
+    <input id="tglpulldown" type="checkbox">
+
+    <label for="tglpulldown">
+
+      <div class="animation">
+          <h4 class="fontbox medium marginleft">VOLUMEN</h4>
+          <div class="openpulldown red textright"></div>
+
+            <div class="contentbox floatclear">
+              <div class="link"><a class="anthrazit" href="konzept.html">GRÖSSE</a></div>
+              <div class="link"><a class="anthrazit" href="konzept.html">MATERIAL</a></div>
+              <div class="link"><a class="anthrazit" href="konzept.html">FARBE</a></div>
+              <div class="link"><a class="anthrazit" href="konzept.html">KOLLEKTION</a></div>
+              <div class="link"><a class="anthrazit" href="konzept.html">MARKE</a></div>
+              <div class="link"><a class="anthrazit" href="konzept.html">PFLEGETIPP</a></div>
+              <div class="link"><a class="anthrazit" href="konzept.html">DESIGNER</a></div>
+            </div>
+
       </div>
+
+    </label>
     </div>
 
     <div class="faq_sofar">
@@ -158,52 +195,122 @@
 
     <div class="faq_line inline">
       <hr>
-      <img class="iconplus" src="image/icon_plus.svg" alt="icon_plus" width="300px" height="">
-      <h5 class="medium floatright">5 bisher gestellte Fragen</h5>
-      <h3 class="medium">Alle Inhalte anzeigen zum Thema Grösse</h3>
+
+      <input id="tglquestions" type="checkbox">
+
+        <label for="tglquestions">
+          <div class="animationquestion">
+            <div class="openquestion"></div>
+            <h3 class="medium floatleft">Weitere Fragen zum Thema Grösse</h3>
+          </div>
+
+          <h5 class="medium textright">5 bisher gestellte Fragen</h5>
+
+      </label>
+
+        <div class="morequestions floatclear">
+          <div class="faq_questionfour">
+            <h2 class="bold">Ist diese Grösse auch für den Aufguss mit Teebeuteln geeignet?</h2>
+          </div>
+          <div class="faq_answerfour">
+            <h2 class="medium">Es gibt die Tasse bisher nur in einer Standardgrösse, diese beträgt Ø 120 mm. Weitere Grössen sind vom Hersteller vorerst nicht geplant.</h2>
+          </div>
+        </div>
+
+        <div class="faq_questionanimation">
+
+
+        <input id="tgl" type="checkbox">
+
+        <label for="tgl">
+
+          <div class="animation">
+              <img class="iconanimation" src="image/icon_question.svg" alt="icon_question" width="" height="">
+              <h4 class="fontbox medium">Eigene Frage stellen</h4>
+              <div class="open red textright"></div>
+              <form>
+                <div class="contentbox">Bitte schreiben Sie uns Ihre Frage</div>
+                <label for="questionform">
+                  <textarea name="text" id="text" placeholder="Bitte Text eingeben"></textarea>
+                  <input type="submit" value="senden">
+                </label>
+              </form>
+          </div>
+
+        </label>
+
+        </div>
+
+
     </div>
-
-    <!--
-
-    <div class="faq_questionbox">
-
-    <div class="questionbox">
-      <img class="iconquestion" src="image/icon_question.svg" alt="icon_question" width="" height="">
-      <h3 class="bold red floatleft">Eigene Frage stellen</h3>
-      <img class="iconquestionplus" src="image/icon_question_plus.svg" alt="icon_question_plus" width="" height="">
-    </div>
-
-    </div>
-
-    -->
-
-    <div class="faq_questionanimation">
-
-    <input id="tgl" type="checkbox">
-
-    <label for="tgl">
-
-      <div class="animation">
-          <div class="open red"></div>
-          <h4 class="fontbox red">Eigene Frage stellen</h4>
-          <div class="contentbox">Bitte schreiben Sie uns Ihre Frage</div>
-          <form>
-            <label for="questionform">
-              <input id="questionform" type="text" name="text" placeholder="Bitte Text eingeben">
-              <input type="submit" value="senden">
-            </label>
-          </form>
-      </div>
-
-
-
-    </label>
-
-    </div>
-
-
 
 </div>
+
+<div class="background_themen">
+
+  <div class="container_themen">
+
+    <h2 class="themen medium">Verwandte Themen</h2>
+
+    <div class="columncardone">
+
+      <div class="card">
+        <img class="imagecard" src="image/1600px-Bauhaus_Dessau_2018.jpg" alt="image_bauhaus" width="" height="">
+        <h2 class="bold headlinecard">Das Bauhaus</h2>
+        <p class="copycard">Das Bauhaus wurde 1919 in Weimar als Kunstschule gegründet</p>
+
+        <div class="tag tagcard">
+          <img class="icontag" src="image/icon_question.svg" alt="icon_question" width="" height="">
+          <a href="konzept.html">
+            BAUHAUS
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="columncardtwo">
+
+      <div class="card">
+        <img class="imagecard" src="image/1600px-Bauhaus_Dessau_2018.jpg" alt="image_bauhaus" width="" height="">
+        <h2 class="bold headlinecard">Das Bauhaus</h2>
+        <p class="copycard">Das Bauhaus wurde 1919 in Weimar als Kunstschule gegründet</p>
+
+        <div class="tag tagcard">
+          <img class="icontag" src="image/icon_question.svg" alt="icon_question" width="" height="">
+          <a href="konzept.html">
+            BAUHAUS
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="columncardthree">
+
+      <div class="card">
+        <img class="imagecard" src="image/1600px-Bauhaus_Dessau_2018.jpg" alt="image_bauhaus" width="" height="">
+        <h2 class="bold headlinecard">Das Bauhaus</h2>
+        <p class="copycard">Das Bauhaus wurde 1919 in Weimar als Kunstschule gegründet</p>
+
+        <div class="tag tagcard">
+          <img class="icontag" src="image/icon_question.svg" alt="icon_question" width="" height="">
+          <a href="konzept.html">
+            BAUHAUS
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
 
 
 
