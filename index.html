@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>domizil</title>
+<title>domizil shop</title>
 <link rel="stylesheet" href="styles/styles.css">
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles/media.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
@@ -17,26 +18,35 @@
     </div>
 
     <div class="headeritemabout headeritem textright">
-      <a href="konzept.html">
+      <a href="ueberuns.html">
         <img class="iconheader default" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
         <img class="iconheader active" src="image/icon_ueber_uns_red.svg" alt="icon_ueber_uns_red" width="" height="">
-        <h4 class="menufont">ÜBER UNS</h4>
+        <h4 class="menufont menufontmobile">ÜBER UNS</h4>
       </a>
     </div>
 
     <div class="headeritemshop headeritem textright">
-      <a href="konzept.html">
-        <img class="iconheader default" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
-        <img class="iconheader active" src="image/icon_ueber_uns_red.svg" alt="icon_ueber_uns_red" width="" height="">
-        <h4 class="menufont">SHOP</h4>
+      <a href="index.html">
+        <!-- <img class="iconheader default" src="image/icon_shop.svg" alt="icon_shop" width="" height=""> -->
+        <img class="iconheader" src="image/icon_shop_red.svg" alt="icon_shop_red" width="" height="">
+        <h4 class="menufont menufontmobile red">SHOP</h4>
       </a>
+
+      <!-- menushopicon -->
+
+      <img class="iconheader default positionabsolute" id="menushopdeafult" src="image/icon_arrow_menu_red.svg" alt="icon_arrow_menu_red" width="" height="">
+      <img class="iconheader active positionabsolute" id="menushopicon" src="image/icon_arrow_menu_red.svg" alt="icon_arrow_menu_red" width="" height="">
+      <img class="hidden" id="menushopclose" src="image/icon_arrow_menu_close.svg" alt="icon_arrow_menu_close" width="" height="">
+
+      <!-- menushopicon -->
+
     </div>
 
     <div class="headeritemaccount headeritem textright">
-      <a href="konzept.html">
-        <img class="iconheader default" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
-        <img class="iconheader active" src="image/icon_ueber_uns_red.svg" alt="icon_ueber_uns_red" width="" height="">
-        <h4 class="menufont">MEIN DOMIZIL</h4>
+      <a href="meindomizil.html">
+        <img class="iconheader default" src="image/icon_meindomizil.svg" alt="icon_meindomizil" width="" height="">
+        <img class="iconheader active" src="image/icon_meindomizil_red.svg" alt="icon_meindomizil_red" width="" height="">
+        <h4 class="menufont menufontmobile">MEIN DOMIZIL</h4>
       </a>
     </div>
 
@@ -47,202 +57,32 @@
 
 <!-- container_breadcrumb -->
 
+<div class="container_menu" id="menushop">
+  <div class="columnmenuone">
+    <h2 class="bold margintop white" href="konzept.html">Tassen</h2>
+    <a class="white" href="konzept.html">Teetasse 2-tlg.</a><br/>
+    <a class="white" href="konzept.html">Kaffeetasse Urbino</a><br/>
+    <a class="white" href="konzept.html">Teetasse Urbino</a>
+  </div>
+
+  <div class="columnmenutwo">
+    <h2 class="bold white margintop" href="konzept.html">Kannen</h2>
+    <a class="white" href="konzept.html">Kaffeekanne Urbino</a><br/>
+    <a class="white" href="konzept.html">Teekanne Urbino</a><br/>
+    <a class="white" href="konzept.html">Kaffeekanne TAC</a>
+  </div>
+
+</div>
+
+<div class="background_breadcrumb">
+
 <div class="container_breadcrumb">
 
   <div class="breadcrumbone">
-    <h5 class="medium"><a class="anthrazit" href="shop.html">Shop</a> > Teetasse 2 tlg.</h5>
+    <h5 class="fontbreadcrumb medium"><a class="white" href="index.html">Shop</a></h5>
   </div>
 
 </div>
-
-<!-- navi -->
-
-<div class="background_navi">
-
-<div class="container_navi">
-
-  <div class="navione headeritem">
-    <a href="konzept.html">
-      <img class="iconheader default" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
-      <img class="iconheader active" src="image/icon_ueber_uns_red.svg" alt="icon_ueber_uns_red" width="" height="">
-      <h4 class="menufont">PRODUKT</h4>
-    </a>
-  </div>
-
-  <div class="navitwo headeritem">
-    <a href="konzept.html">
-      <img class="iconheader default" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
-      <img class="iconheader active" src="image/icon_ueber_uns_red.svg" alt="icon_ueber_uns_red" width="" height="">
-      <h4 class="menufont">BERATUNG</h4>
-    </a>
-  </div>
-
-  <div class="navithree headeritem">
-    <a href="konzept.html">
-      <img class="iconheader default" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
-      <img class="iconheader active" src="image/icon_ueber_uns_red.svg" alt="icon_ueber_uns_red" width="" height="">
-      <h4 class="menufont">KOSMOS</h4>
-    </a>
-  </div>
-
-  <div class="navifour headeritem">
-    <a href="konzept.html">
-      <img class="iconheader default" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
-      <img class="iconheader active" src="image/icon_ueber_uns_red.svg" alt="icon_ueber_uns_red" width="" height="">
-      <h4 class="menufont">TERMIN</h4>
-    </a>
-  </div>
-
-</div>
-
-</div>
-
-<!-- navi -->
-
-
-<!-- container_product -->
-
-<div class="container_product">
-
-  <div class="columnproduct">
-    <h3 class="bold">Teetasse 2-tlg.</h3>
-    <h5 class="medium">Porzellanserie TAC von Walter Gropius</h5>
-    <img class="" src="image/tasse.png" alt="tasse.png" width="300px" height="">
-    <h3 class="medium">Häufig gestellte Fragen zu diesem Produkt</h3>
-
-    <div class="tag">
-      <a href="konzept.html">
-        FARBE
-      </a>
-      </div>
-      <h3 class="bold">Kann ich das Produkt auch in Weiss bekommen?</h3>
-      <h3 class="medium">Ja, das Produkt gibt es auch in Weiss. Zudem bieten wir die Farben Grün und Sand an.</h3>
-
-      <div class="tag">
-        <a href="konzept.html">
-          FARBE
-        </a>
-        </div>
-        <h3 class="bold">Kann ich das Produkt auch in Weiss bekommen?</h3>
-        <h3 class="medium">Ja, das Produkt gibt es auch in Weiss. Zudem bieten wir die Farben Grün und Sand an.</h3>
-
-        <div class="tag">
-          <a href="konzept.html">
-            FARBE
-          </a>
-          </div>
-          <h3 class="bold">Kann ich das Produkt auch in Weiss bekommen?</h3>
-          <h3 class="medium">Ja, das Produkt gibt es auch in Weiss. Zudem bieten wir die Farben Grün und Sand an.</h3>
-
-    </div>
-
-  <div class="columnfaq">
-
-    <h2 class="medium">Ich möchte hierzu gern mehr erfahren</h2>
-
-    <!-- tglpulldown  -->
-
-    <input id="tglpulldown" type="checkbox">
-
-    <label for="tglpulldown">
-
-      <div class="animation">
-          <h4 class="fontbox medium marginleft">VOLUMEN</h4>
-          <div class="openpulldown red textright"></div>
-
-            <div class="contentbox floatclear">
-              <div class="link"><a class="anthrazit" href="konzept.html">GRÖSSE</a></div>
-              <div class="link"><a class="anthrazit" href="konzept.html">MATERIAL</a></div>
-              <div class="link"><a class="anthrazit" href="konzept.html">FARBE</a></div>
-              <div class="link"><a class="anthrazit" href="konzept.html">KOLLEKTION</a></div>
-              <div class="link"><a class="anthrazit" href="konzept.html">MARKE</a></div>
-              <div class="link"><a class="anthrazit" href="konzept.html">PFLEGETIPP</a></div>
-              <div class="link"><a class="anthrazit" href="konzept.html">DESIGNER</a></div>
-            </div>
-
-      </div>
-
-    </label>
-    </div>
-
-    <div class="faq_sofar">
-      <h5 class="bold">Bisherige Fragen zum Thema Grösse</h5>
-    </div>
-
-    <div class="faq_questionone">
-      <h2 class="bold">Haben alle Tassen aus dieser Serie die gleiche Standardgrösse?</h2>
-    </div>
-
-    <div class="faq_answerone">
-      <h2 class="medium">Es gibt die Tasse bisher nur in einer Standardgrösse, diese beträgt Ø 120 mm. Weitere Grössen sind vom Hersteller vorerst nicht geplant.</h2>
-    </div>
-
-    <div class="faq_questiontwo">
-      <h2 class="bold">Kann diese Grösse auch mit anderen Untertellern kombiniert werden?</h2>
-    </div>
-
-    <div class="faq_answertwo">
-      <h2 class="medium">Prinzipiell kann diese Tasse mit allen Untertellern der TAC-Serie kombiniert werden. Leider eignen sich ansonsten nicht alle Unterteller von anderen Herstellern zum kombinieren.</h2>
-    </div>
-
-    <div class="faq_questionthree">
-      <h2 class="bold">Ist diese Grösse auch für den Aufguss mit Teebeuteln geeignet?</h2>
-    </div>
-
-    <div class="faq_answerthree">
-      <h2 class="medium">Es gibt die Tasse bisher nur in einer Standardgrösse, diese beträgt Ø 120 mm. Weitere Grössen sind vom Hersteller vorerst nicht geplant.</h2>
-    </div>
-
-    <div class="faq_line inline">
-      <hr>
-
-      <input id="tglquestions" type="checkbox">
-
-        <label for="tglquestions">
-          <div class="animationquestion">
-            <div class="openquestion"></div>
-            <h3 class="medium floatleft">Weitere Fragen zum Thema Grösse</h3>
-          </div>
-
-          <h5 class="medium textright">5 bisher gestellte Fragen</h5>
-
-      </label>
-
-        <div class="morequestions floatclear">
-          <div class="faq_questionfour">
-            <h2 class="bold">Ist diese Grösse auch für den Aufguss mit Teebeuteln geeignet?</h2>
-          </div>
-          <div class="faq_answerfour">
-            <h2 class="medium">Es gibt die Tasse bisher nur in einer Standardgrösse, diese beträgt Ø 120 mm. Weitere Grössen sind vom Hersteller vorerst nicht geplant.</h2>
-          </div>
-        </div>
-
-        <div class="faq_questionanimation">
-
-
-        <input id="tgl" type="checkbox">
-
-        <label for="tgl">
-
-          <div class="animation">
-              <img class="iconanimation" src="image/icon_question.svg" alt="icon_question" width="" height="">
-              <h4 class="fontbox medium">Eigene Frage stellen</h4>
-              <div class="open red textright"></div>
-              <form>
-                <div class="contentbox">Bitte schreiben Sie uns Ihre Frage</div>
-                <label for="questionform">
-                  <textarea name="text" id="text" placeholder="Bitte Text eingeben"></textarea>
-                  <input type="submit" value="senden">
-                </label>
-              </form>
-          </div>
-
-        </label>
-
-        </div>
-
-
-    </div>
 
 </div>
 
@@ -250,59 +90,101 @@
 
   <div class="container_themen">
 
-    <h2 class="themen medium">Verwandte Themen</h2>
+    <h2 class="themen medium">Aktuelle Angebote</h2>
 
-    <div class="columncardone">
+    <div class="columncardone marginbottom">
 
-      <div class="card">
-        <img class="imagecard" src="image/1600px-Bauhaus_Dessau_2018.jpg" alt="image_bauhaus" width="" height="">
-        <h2 class="bold headlinecard">Das Bauhaus</h2>
-        <p class="copycard">Das Bauhaus wurde 1919 in Weimar als Kunstschule gegründet</p>
+      <a href="product.html">
 
-        <div class="tag tagcard">
-          <img class="icontag" src="image/icon_question.svg" alt="icon_question" width="" height="">
-          <a href="konzept.html">
-            BAUHAUS
-          </a>
+        <div class="card headeritem">
+          <img class="iconheader default positionfixed" src="image/icon_product_white.svg" alt="icon_product_white" width="" height="">
+          <img class="iconheader active positionfixed" src="image/icon_product_red.svg" alt="icon_product_red" width="" height="">
+          <img class="imageshop" src="image/tasse_gropius.png" alt="tasse_gropius" width="" height="">
+          <h4 class="bold anthrazit headlineshop">Teetasse 2-tlg.</h4>
+          <p class="anthrazit copyshop">32.–</p>
         </div>
 
-      </div>
+      </a>
 
     </div>
 
-    <div class="columncardtwo">
+    <div class="columncardtwo marginbottom">
 
-      <div class="card">
-        <img class="imagecard" src="image/1600px-Bauhaus_Dessau_2018.jpg" alt="image_bauhaus" width="" height="">
-        <h2 class="bold headlinecard">Das Bauhaus</h2>
-        <p class="copycard">Das Bauhaus wurde 1919 in Weimar als Kunstschule gegründet</p>
+      <a href="product.html">
 
-        <div class="tag tagcard">
-          <img class="icontag" src="image/icon_question.svg" alt="icon_question" width="" height="">
-          <a href="konzept.html">
-            BAUHAUS
-          </a>
+        <div class="card headeritem">
+          <img class="iconheader default positionfixed" src="image/icon_product_white.svg" alt="icon_product_white" width="" height="">
+          <img class="iconheader active positionfixed" src="image/icon_product_red.svg" alt="icon_product_red" width="" height="">
+          <img class="imageshop" src="image/tasse_petri.png" alt="tasse_petri" width="" height="">
+          <h4 class="bold anthrazit headlineshop">Kaffeetasse Urbino</h4>
+          <p class="anthrazit copyshop">32.–</p>
         </div>
 
-      </div>
+      </a>
 
     </div>
 
-    <div class="columncardthree">
+    <div class="columncardthree marginbottom">
 
-      <div class="card">
-        <img class="imagecard" src="image/1600px-Bauhaus_Dessau_2018.jpg" alt="image_bauhaus" width="" height="">
-        <h2 class="bold headlinecard">Das Bauhaus</h2>
-        <p class="copycard">Das Bauhaus wurde 1919 in Weimar als Kunstschule gegründet</p>
+      <a href="product.html">
 
-        <div class="tag tagcard">
-          <img class="icontag" src="image/icon_question.svg" alt="icon_question" width="" height="">
-          <a href="konzept.html">
-            BAUHAUS
-          </a>
+        <div class="card headeritem">
+          <img class="iconheader default positionfixed" src="image/icon_product_white.svg" alt="icon_product_white" width="" height="">
+          <img class="iconheader active positionfixed" src="image/icon_product_red.svg" alt="icon_product_red" width="" height="">
+          <img class="imageshop" src="image/tasse_petri_2.png" alt="tasse_petri" width="" height="">
+          <h4 class="bold anthrazit headlineshop">Teetasse Urbino</h4>
+          <p class="anthrazit copyshop">32.–</p>
         </div>
 
-      </div>
+      </a>
+
+    </div>
+
+    <div class="columncardfour marginbottom">
+
+      <a href="product.html">
+
+        <div class="card headeritem">
+          <img class="iconheader default positionfixed" src="image/icon_product_white.svg" alt="icon_product_white" width="" height="">
+          <img class="iconheader active positionfixed" src="image/icon_product_red.svg" alt="icon_product_red" width="" height="">
+          <img class="imageshop" src="image/kanne_petri.png" alt="kanne_petri" width="" height="">
+          <h4 class="bold anthrazit headlineshop">Kaffeekanne Urbino</h4>
+          <p class="anthrazit copyshop">32.–</p>
+        </div>
+
+      </a>
+
+    </div>
+
+    <div class="columncardfive marginbottom">
+
+      <a href="product.html">
+
+        <div class="card headeritem">
+          <img class="iconheader default positionfixed" src="image/icon_product_white.svg" alt="icon_product_white" width="" height="">
+          <img class="iconheader active positionfixed" src="image/icon_product_red.svg" alt="icon_product_red" width="" height="">
+          <img class="imageshop" src="image/kanne_petri_2.png" alt="kanne_petri_2" width="" height="">
+          <h4 class="bold anthrazit headlineshop">Teekanne Urbino</h4>
+          <p class="anthrazit copyshop">32.–</p>
+        </div>
+
+      </a>
+
+    </div>
+
+    <div class="columncardsix marginbottom">
+
+      <a href="product.html">
+
+        <div class="card headeritem">
+          <img class="iconheader default positionfixed" src="image/icon_product_white.svg" alt="icon_product_white" width="" height="">
+          <img class="iconheader active positionfixed" src="image/icon_product_red.svg" alt="icon_product_red" width="" height="">
+          <img class="imageshop" src="image/kanne_gropius.png" alt="kanne_gropius" width="" height="">
+          <h4 class="bold anthrazit headlineshop">Kaffeekanne TAC</h4>
+          <p class="anthrazit copyshop">32.–</p>
+        </div>
+
+      </a>
 
     </div>
 
@@ -310,12 +192,67 @@
 
 </div>
 
+<!-- container_shop -->
 
+<div class="background_shop">
 
+<div class="container_shopquestion">
+  <div class="shopheadline">
+    <h2 class="medium anthrazit margintop">Zuletzt von Ihnen angesehen</h2>
+</div>
 
+<div class="columnvisitone marginbottom">
 
+  <a href="product.html">
 
-<!-- navi -->
+    <div class="card headeritem">
+      <img class="iconheader default positionfixed" src="image/icon_product_white.svg" alt="icon_product_white" width="" height="">
+      <img class="iconheader active positionfixed" src="image/icon_product_red.svg" alt="icon_product_red" width="" height="">
+      <img class="imageshop" src="image/tasse_gropius.png" alt="tasse_gropius" width="" height="">
+      <h4 class="bold anthrazit headlineshop">Teetasse 2-tlg.</h4>
+      <p class="anthrazit copyshop">32.–</p>
+    </div>
+
+  </a>
+
+</div>
+
+<div class="columnvisittwo marginbottom">
+
+  <a href="product.html">
+
+    <div class="card headeritem">
+      <img class="iconheader default positionfixed" src="image/icon_product_white.svg" alt="icon_product_white" width="" height="">
+      <img class="iconheader active positionfixed" src="image/icon_product_red.svg" alt="icon_product_red" width="" height="">
+      <img class="imageshop" src="image/tasse_petri.png" alt="tasse_petri" width="" height="">
+      <h4 class="bold anthrazit headlineshop">Kaffeetasse Urbino</h4>
+      <p class="anthrazit copyshop">32.–</p>
+    </div>
+
+  </a>
+
+</div>
+
+<div class="columnvisitthree marginbottom">
+
+  <a href="product.html">
+
+    <div class="card headeritem">
+      <img class="iconheader default positionfixed" src="image/icon_product_white.svg" alt="icon_product_white" width="" height="">
+      <img class="iconheader active positionfixed" src="image/icon_product_red.svg" alt="icon_product_red" width="" height="">
+      <img class="imageshop" src="image/tasse_petri_2.png" alt="tasse_petri" width="" height="">
+      <h4 class="bold anthrazit headlineshop">Teetasse Urbino</h4>
+      <p class="anthrazit copyshop">32.–</p>
+    </div>
+
+  </a>
+
+</div>
+
+</div>
+
+</div>
+
 
 <script src="js/main.js"></script>
 

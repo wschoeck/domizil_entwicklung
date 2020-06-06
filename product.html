@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>domizil</title>
+<link rel="stylesheet" href="styles/styles.css">
+<link rel="stylesheet" href="styles/media.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<!-- header -->
+
+<div class="background_header">
+  <div class="container_header">
+
+    <div class="headeritemone">
+      <img class="logo" src="image/domizil_Logo.svg" alt="domizil_Logo" width="" height="">
+    </div>
+
+    <div class="headeritemabout headeritem textright">
+      <a href="ueberuns.html">
+        <img class="iconheader default" src="image/icon_ueber_uns.svg" alt="icon_ueber_uns" width="" height="">
+        <img class="iconheader active" src="image/icon_ueber_uns_red.svg" alt="icon_ueber_uns_red" width="" height="">
+        <h4 class="menufont menufontmobile">ÜBER UNS</h4>
+      </a>
+    </div>
+
+    <div class="headeritemshop headeritem textright">
+      <a href="index.html">
+        <!-- <img class="iconheader default" src="image/icon_shop.svg" alt="icon_shop" width="" height=""> -->
+        <img class="iconheader" src="image/icon_shop_red.svg" alt="icon_shop_red" width="" height="">
+        <h4 class="menufont menufontmobile red">SHOP</h4>
+      </a>
+
+      <!-- menushopicon -->
+
+      <img class="iconheader default positionabsolute" id="menushopdeafult" src="image/icon_arrow_menu.svg" alt="icon_arrow_menu" width="" height="">
+      <img class="iconheader active positionabsolute" id="menushopicon" src="image/icon_arrow_menu_red.svg" alt="icon_arrow_menu_red" width="" height="">
+      <img class="hidden" id="menushopclose" src="image/icon_arrow_menu_close.svg" alt="icon_arrow_menu_close" width="" height="">
+
+      <!-- menushopicon -->
+
+    </div>
+
+    <div class="headeritemaccount headeritem textright">
+      <a href="meindomizil.html">
+        <img class="iconheader default" src="image/icon_meindomizil.svg" alt="icon_meindomizil" width="" height="">
+        <img class="iconheader active" src="image/icon_meindomizil_red.svg" alt="icon_meindomizil_red" width="" height="">
+        <h4 class="menufont menufontmobile">MEIN DOMIZIL</h4>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<!-- header -->
+
+<!-- container_breadcrumb -->
+
+<div class="container_menu" id="menushop">
+  <div class="columnmenuone">
+    <h2 class="bold margintop white" href="konzept.html">Tassen</h2>
+    <a class="white" href="konzept.html">Teetasse 2-tlg.</a><br/>
+    <a class="white" href="konzept.html">Kaffeetasse Urbino</a><br/>
+    <a class="white" href="konzept.html">Teetasse Urbino</a>
+  </div>
+
+  <div class="columnmenutwo">
+    <h2 class="bold white margintop" href="konzept.html">Kannen</h2>
+    <a class="white" href="konzept.html">Kaffeekanne Urbino</a><br/>
+    <a class="white" href="konzept.html">Teekanne Urbino</a><br/>
+    <a class="white" href="konzept.html">Kaffeekanne TAC</a>
+  </div>
+
+</div>
+
+<div class="background_breadcrumb">
+
+<div class="container_breadcrumb">
+
+  <div class="breadcrumbone">
+    <h5 class="fontbreadcrumb white medium"><a class="white" href="index.html">Shop</a> > Teetasse 2 tlg.</h5>
+  </div>
+
+</div>
+
+</div>
+
+<!-- navi -->
+
+<div class="background_navi">
+
+<div class="container_navi">
+
+  <div class="navione headeritem">
+    <a href="product.html">
+      <img class="iconheader" src="image/icon_product_red.svg" alt="icon_product_red" width="" height="">
+      <h4 class="menufont red">PRODUKT</h4>
+    </a>
+  </div>
+
+  <div class="navitwo headeritem">
+    <a href="beratung.html">
+      <img class="iconheader default" src="image/icon_beratung.svg" alt="icon_beratung" width="" height="">
+      <img class="iconheader active" src="image/icon_beratung_red.svg" alt="icon_beratung_red" width="" height="">
+      <h4 class="menufont">BERATUNG</h4>
+    </a>
+  </div>
+
+  <div class="navithree headeritem">
+    <a href="kosmos.html">
+      <img class="iconkosmos default" src="image/icon_kosmos.svg" alt="icon_kosmos" width="" height="">
+      <img class="iconkosmos active" src="image/icon_kosmos_red.svg" alt="icon_kosmos_red" width="" height="">
+      <h4 class="menufont">KOSMOS</h4>
+    </a>
+  </div>
+
+</div>
+
+</div>
+
+<!-- navi -->
+
+
+<!-- container_product -->
+
+<div class="container_product">
+
+  <div class="columnproduct">
+    <h3 class="bold">Teetasse 2-tlg.</h3>
+    <h5 class="lineheightproduct medium">Porzellanserie TAC von Walter Gropius</h5>
+    <img class="" src="image/tasse_gropius.png" alt="tasse_gropius" width="100%" height="">
+
+    <input id="tgl" type="checkbox">
+
+    <label for="tgl">
+
+      <div class="animation marginbottom">
+          <h4 class="fontbox medium marginleft">Besichtigungstermin anfragen</h4>
+          <div class="open red textright"></div>
+          <form action="/action_page.php">
+          <div class="contentbox"><h4 class="bold marginbox">Gewünschter Termin</h4></div>
+            <label class="fontsizedate" for="birthday">Datum auswählen</label>
+            <input class="textright" type="date" id="birthday" name="birthday">
+            <label for="questionform">
+              <textarea class="heightcomment" name="text" id="text" placeholder="Kommentar schreiben"></textarea>
+              <input type="submit" formaction="kosmos.html" value="senden">
+            </label>
+          </form>
+      </div>
+
+    </label>
+
+
+    </div>
+
+  <div class="columnspec">
+
+
+    <a href="beratung.html">
+    <div class="tag headeritem marginbox margintop">
+      <img class="icontag default" src="image/icon_beratung_white.svg" alt="icon_beratung_white" width="" height="">
+      <img class="icontag active" src="image/icon_beratung_red.svg" alt="icon_beratung_red" width="" height="">
+        <p class="transform">Volumen</p>
+    </div>
+    </a>
+    <p class="fontsizeabout marginbottom">0,24 l</p>
+
+    <a href="beratung.html">
+    <div class="tag headeritem marginbox margintop">
+      <img class="icontag default" src="image/icon_beratung_white.svg" alt="icon_beratung_white" width="" height="">
+      <img class="icontag active" src="image/icon_beratung_red.svg" alt="icon_beratung_red" width="" height="">
+        <p class="transform">Grösse</p>
+    </div>
+    </a>
+    <p class="fontsizeabout marginbottom">Der Durchmesser beträgt 120 mm</p>
+
+    <a href="beratung.html">
+    <div class="tag headeritem marginbox margintop">
+      <img class="icontag default" src="image/icon_beratung_white.svg" alt="icon_beratung_white" width="" height="">
+      <img class="icontag active" src="image/icon_beratung_red.svg" alt="icon_beratung_red" width="" height="">
+        <p class="transform">Material</p>
+    </div>
+    </a>
+    <p class="fontsizeabout marginbottom">Das Produkt ist aus Porzellan</p>
+
+    <a href="beratung.html">
+    <div class="tag headeritem marginbox margintop">
+      <img class="icontag default" src="image/icon_beratung_white.svg" alt="icon_beratung_white" width="" height="">
+      <img class="icontag active" src="image/icon_beratung_red.svg" alt="icon_beratung_red" width="" height="">
+        <p class="transform">Farbe</p>
+    </div>
+    </a>
+    <p class="fontsizeabout marginbottom">Standardmässig ist das Produkt in der Farbe Purpur erhältlich und bei uns momentan an Lager</p>
+
+    <a href="beratung.html">
+    <div class="tag headeritem marginbox margintop">
+      <img class="icontag default" src="image/icon_beratung_white.svg" alt="icon_beratung_white" width="" height="">
+      <img class="icontag active" src="image/icon_beratung_red.svg" alt="icon_beratung_red" width="" height="">
+        <p class="transform">Kollektion</p>
+    </div>
+    </a>
+    <p class="fontsizeabout marginbottom">TAC Gropius</p>
+
+    <a href="kosmos.html">
+    <div class="tag headeritem marginbox margintop">
+      <img class="icontag default" src="image/icon_kosmos_white.svg" alt="icon_kosmos_white" width="" height="">
+      <img class="icontag active" src="image/icon_kosmos_red.svg" alt="icon_kosmos_red" width="" height="">
+        <p class="transform">Designer</p>
+    </div>
+    </a>
+    <p class="fontsizeabout marginbottom">Walter Gropius</p>
+
+
+  </div>
+
+    <div class="faq_sofar z100">
+    </div>
+
+
+</div>
+
+
+<div class="background_themen">
+
+  <div class="container_themen">
+
+    <h2 class="themen medium">Verwandte Themen</h2>
+
+    <div class="columncardone">
+
+      <div class="card">
+        <img class="imagecard" src="image/1600px-Bauhaus_Dessau_2018.jpg" alt="image_bauhaus" width="" height="">
+        <h2 class="bold headlinecard">Das Bauhaus</h2>
+        <p class="copycard">Das Bauhaus wurde 1919 in Weimar als Kunstschule gegründet</p>
+
+        <div class="tag tagcard">
+          <img class="icontag" src="image/icon_question.svg" alt="icon_question" width="" height="">
+          <a href="konzept.html">
+            BAUHAUS
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="columncardtwo">
+
+      <div class="card">
+        <img class="imagecard" src="image/1600px-Bauhaus_Dessau_2018.jpg" alt="image_bauhaus" width="" height="">
+        <h2 class="bold headlinecard">Das Bauhaus</h2>
+        <p class="copycard">Das Bauhaus wurde 1919 in Weimar als Kunstschule gegründet</p>
+
+        <div class="tag tagcard">
+          <img class="icontag" src="image/icon_question.svg" alt="icon_question" width="" height="">
+          <a href="konzept.html">
+            BAUHAUS
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="columncardthree">
+
+      <div class="card">
+        <img class="imagecard" src="image/1600px-Bauhaus_Dessau_2018.jpg" alt="image_bauhaus" width="" height="">
+        <h2 class="bold headlinecard">Das Bauhaus</h2>
+        <p class="copycard">Das Bauhaus wurde 1919 in Weimar als Kunstschule gegründet</p>
+
+        <a href="konzept.html">
+        <div class="tag tagcard headeritem">
+          <img class="icontag default" src="image/icon_kosmos_white.svg" alt="icon_kosmos_white" width="" height="">
+          <img class="icontag active" src="image/icon_kosmos_red.svg" alt="icon_kosmos_red" width="" height="">
+            <p class="transform">Bauhaus</p>
+        </div>
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+<!-- navi -->
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
