@@ -307,6 +307,32 @@
 
     }
 
+    .container_beratung {
+      display: grid;
+      width: 360px;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 40px 100px;
+      grid-column-gap: 30px;
+      grid-row-gap: 0;
+      margin-left: auto;
+      margin-right: auto;
+      grid-auto-flow: column;
+
+    }
+
+    .container_groesse {
+      display: grid;
+      width: 360px;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 40px 100px;
+      grid-column-gap: 30px;
+      grid-row-gap: 0;
+      margin-left: auto;
+      margin-right: auto;
+      grid-auto-flow: column;
+
+    }
+
     .columnspec {
       grid-column-start:1;
       grid-column-end:13;
@@ -430,7 +456,7 @@
       display: grid;
       width: 360px;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 100px;
+      grid-template-rows: 100px 400px 400px 400px;
       grid-column-gap: 30px;
       grid-row-gap: 0;
       margin-left: auto;
@@ -596,6 +622,111 @@
       grid-auto-flow: column;
 
     }
+
+    .faq_questionanimation {
+      grid-column-start:1;
+      grid-column-end:13;
+      grid-row-start:11;
+      grid-row-end:12;
+      width: auto;
+    }
+
+    .faq_box {
+      grid-column-start:1;
+      grid-column-end:13;
+      grid-row-start:11;
+      grid-row-end:12;
+      width: auto;
+    }
+
+    .container_material {
+      display: grid;
+      width: 360px;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 40px 120px;
+      grid-column-gap: 30px;
+      grid-row-gap: 0;
+      margin-left: auto;
+      margin-right: auto;
+      grid-auto-flow: column;
+
+    }
+
+    .container_farbe {
+      display: grid;
+      width: 360px;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 40px 120px;
+      grid-column-gap: 30px;
+      grid-row-gap: 0;
+      margin-left: auto;
+      margin-right: auto;
+      grid-auto-flow: column;
+
+    }
+
+    .container_kollektion {
+      display: grid;
+      width: 360px;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 40px 120px 40px 60px 120px 80px;
+      grid-column-gap: 30px;
+      grid-row-gap: 0;
+      margin-left: auto;
+      margin-right: auto;
+      grid-auto-flow: column;
+
+    }
+
+    .container_overview {
+
+      display: grid;
+      width: 360px;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 100px;
+      grid-column-gap: 30px;
+      grid-row-gap: 0;
+      margin-left: auto;
+      margin-right: auto;
+      grid-auto-flow: column;
+
+    }
+
+    .faq_questionbox {
+      grid-column-start:1;
+      grid-column-end:13;
+      grid-row-start:11;
+      grid-row-end:12;
+      width: auto;
+    }
+
+    .faq_questionbox_farbe {
+      grid-column-start:1;
+      grid-column-end:13;
+      grid-row-start:11;
+      grid-row-end:12;
+      width: auto;
+    }
+
+    .faq_questionbox_kollektion {
+      grid-column-start:1;
+      grid-column-end:13;
+      grid-row-start:11;
+      grid-row-end:12;
+      width: auto;
+    }
+
+    .faq_questionbox_material {
+      grid-column-start:1;
+      grid-column-end:13;
+      grid-row-start:11;
+      grid-row-end:12;
+      width: auto;
+    }
+
+
+
+
 
 }
 
