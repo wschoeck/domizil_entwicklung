@@ -126,10 +126,30 @@
 
 <div class="container_question">
 
-  <div class="columnquestionmark">
+  <div class="columnquestionmark marginbottom">
     <h3 class="bold">Teetasse 2-tlg.</h3>
     <h5 class="lineheightproduct medium">Porzellanserie TAC von Walter Gropius</h5>
     <img class="" src="image/tasse_gropius.png" alt="tasse_gropius" width="100%" height="">
+
+    <input id="tglbesichtigung" type="checkbox">
+
+    <label for="tglbesichtigung">
+
+      <div class="animation">
+          <h4 class="fontbox medium marginleft">Besichtigungstermin anfragen</h4>
+          <div class="open red textright"></div>
+          <form action="/action_page.php">
+          <div class="contentbox"><h4 class="bold marginbox">Gewünschter Termin</h4></div>
+            <label class="fontsizedate" for="birthday">Datum auswählen</label>
+            <input class="textright" type="date" id="datum" name="datum">
+            <label for="questionform">
+              <textarea class="heightcomment" name="text" id="text" placeholder="Kommentar schreiben"></textarea>
+              <input type="submit" formaction="besichtigung.html" value="senden">
+            </label>
+          </form>
+      </div>
+
+    </label>
 
     <!-- tgl  -->
 

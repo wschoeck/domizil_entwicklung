@@ -82,7 +82,7 @@ h2 {
 h3 {
   font-family: 'Spartan', sans-serif;
   font-size: 0.8rem;
-  line-height: 1.2rem;
+  line-height: 1.25rem;
 }
 
 h4 {
@@ -102,6 +102,7 @@ h5 {
 .fontsizeabout {
   font-size: 1.5rem;
   line-height: 2.1rem;
+  margin-top: 15px;
 }
 
 .fontsizecopy {
@@ -488,7 +489,7 @@ div {
   display: grid;
   width: 1140px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 20px 40px 140px 160px 140px 400px;
+  grid-template-rows: 20px 60px;
   grid-column-gap: 30px;
   grid-row-gap: 0;
   margin-left: auto;
@@ -518,16 +519,16 @@ div {
 }
 
 .columnprofilone {
-  grid-column-start:6;
-  grid-column-end:7;
-  grid-row-start:2;
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:3;
   grid-row-end:6;
 }
 
 .columnprofiltwo {
-  grid-column-start:7;
-  grid-column-end:13;
-  grid-row-start:2;
+  grid-column-start:2;
+  grid-column-end:7;
+  grid-row-start:3;
   grid-row-end:6;
 }
 
@@ -1385,6 +1386,15 @@ background-color: #EFEFEF;
 
 }
 
+.columnentryheadline {
+
+  grid-column-start:1;
+  grid-column-end:13;
+  grid-row-start:1;
+  grid-row-end:1;
+
+}
+
 .columncardentryone {
 
   grid-column-start:2;
@@ -1804,7 +1814,7 @@ br {
   display: grid;
   width: 1140px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 60px 1400px;
+  grid-template-rows: 60px 600px;
   grid-column-gap: 30px;
   grid-row-gap: 0;
   margin-left: auto;
@@ -1825,7 +1835,7 @@ br {
 
 .background_footer {
   background-color: #5A5A5A;
-  height: 200px;
+  height: 150px;
 }
 
 .container_footer {
@@ -1833,7 +1843,7 @@ br {
   display: grid;
   width: 1140px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 170px;
+  grid-template-rows: 150px;
   grid-column-gap: 30px;
   grid-row-gap: 0;
   margin-left: auto;
@@ -1877,7 +1887,7 @@ br {
   display: grid;
   width: 1140px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 100px 360px 360px;
+  grid-template-rows: 150px 360px 360px 380px;
   grid-column-gap: 30px;
   grid-row-gap: 0;
   margin-left: auto;
@@ -2000,4 +2010,17 @@ br {
   grid-column-end:11;
   grid-row-start:1;
   grid-row-end:1;
+}
+
+.marginabout {
+  margin-top: 57px;
+}
+
+.fontsizeentry {
+  font-family: 'Spartan', sans-serif;
+  font-size: 1.55rem;
+  line-height: 2rem;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  letter-spacing: -0.1px;
 }
